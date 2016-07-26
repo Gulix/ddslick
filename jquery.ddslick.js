@@ -161,6 +161,7 @@
                 //EVENTS
                 //Displaying options
                 obj.find('.dd-select').on('click.ddslick', function () {
+                    adjustSelectedOrientation(obj);
                     open(obj);
                 });
 
